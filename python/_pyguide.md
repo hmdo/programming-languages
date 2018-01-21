@@ -21,11 +21,11 @@ Quick Reference
 ---------------
 
 1. [Project Guidelines](#project-rules)
-    1.  [Version](#version): Use Python 2.7
+      1.  [Version](#version): Use Python 2.7
 2. [Language Guidelines](#language-rules)
-    1.  [Lint](#lint): Run _pylint_ over your code
-    2.  [Imports](#imports): Use imports for packages and modules only
-    3.  [Packages](#packages): Import each module using the full pathname
+      1. [Lint](#lint): Run _pylint_ over your code
+      2.  [Imports](#imports): Use imports for packages and modules only
+      3.  [Packages](#packages): Import each module using the full pathname
       location of the module
       4.  [Exceptions](#exceptions): Exceptions are allowed but must be used
       carefully
