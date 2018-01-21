@@ -34,33 +34,32 @@ Quick Reference
       Local/nested/inner classes and functions are fine
     - [7.  List Comprehensions](#list-comprehensions): Okay to use for simple cases
     - [8.  Default Iterators and Operators](#default-iterators-and-operators):
-      Use default iterators and operators for types that support them, like
-      lists, dictionaries, and files
+      Use default iterators and operators for types that support them, like lists, dictionaries, and files
     - [9.  Generators](#generators): Use generators as needed
-    - [10. [Lambda Functions](#lambda-functions): Use only for one-liners
-    - [11. [Conditional Expressions](#conditional-expressions): Use only for
+    - [10. Lambda Functions](#lambda-functions): Use only for one-liners
+    - [11. Conditional Expressions](#conditional-expressions): Use only for
       one-liners
-    - [12. [Default Parameters](#default-parameters): Okay in most cases
-    - [13. [Properties](#properties): Use to access or set data instead of simple
+    - [12. Default Parameters](#default-parameters): Okay in most cases
+    - [13. Properties](#properties): Use to access or set data instead of simple
       accessor or setter methods
-    - [14. [True and False Evaluations](#true-and-false-evaluations): Use the
+    - [14. True and False Evaluations](#true-and-false-evaluations): Use the
       "implicit" false if at all possible
-    - [15. [Deprecated Language Features](#deprecated-language-features):
+    - [15. Deprecated Language Features](#deprecated-language-features):
       - Use string methods instead of the `string` module where possible
       - Use function call syntax instead of `apply`
       - Use list comprehensions and for loops instead of `filter` and `map` when
       the function argument would have been an inlined lambda anyway
       - Use for loops instead of `reduce`
-    - [16. [Lexical Scoping](#lexical-scoping): Okay to use
-    - [17. [Function and Method Decorators](#function-and-method-decorators):
+    - [16. Lexical Scoping](#lexical-scoping): Okay to use
+    - [17. Function and Method Decorators](#function-and-method-decorators):
       Use decorators judiciously when there is a clear advantage
-    - [18. [Threading](#threading): Do not rely on the atomicity of built-in types
-    - [19. [Power Features](#power-features): Avoid using these features.
+    - [18. Threading](#threading): Do not rely on the atomicity of built-in types
+    - [19. Power Features](#power-features): Avoid using these features.
 - [3. Style Guidelines](#style-rules)
-    - [1.  Semicolons](#semicolons): Avoid using semicolons in  your code.
-    - [2.  Line Length](#line-length): Maximum line length is 80 characters.
-    - [3.  Parentheses](#parentheses): Use parentheses sparingly.
-    - [4.  Indentation](#indentation): Indent your code blocks with 4 spaces.
+    - [1. Semicolons](#semicolons): Avoid using semicolons in  your code.
+    - [2. Line Length](#line-length): Maximum line length is 80 characters.
+    - [3. Parentheses](#parentheses): Use parentheses sparingly.
+    - [4. Indentation](#indentation): Indent your code blocks with 4 spaces.
 <!-- /MarkdownTOC -->
 Project Guidelines
 ------------------
