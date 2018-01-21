@@ -19,49 +19,49 @@ This is **version 1.0** of the documentation.
 
 Quick Reference
 ---------------
-
-1. [Project Guidelines](#project-rules)
-      1.  [Version](#version): Use Python 2.7
-2. [Language Guidelines](#language-rules)
-      1. [Lint](#lint): Run _pylint_ over your code
-      2.  [Imports](#imports): Use imports for packages and modules only
-      3.  [Packages](#packages): Import each module using the full pathname
+<!-- MarkdownTOC -->
+- 1. [Project Guidelines](#project-rules)
+    - 1.  [Version](#version): Use Python 2.7
+- 2. [Language Guidelines](#language-rules)
+    - 1. [Lint](#lint): Run _pylint_ over your code
+    - 2.  [Imports](#imports): Use imports for packages and modules only
+    - 3.  [Packages](#packages): Import each module using the full pathname
       location of the module
-      4.  [Exceptions](#exceptions): Exceptions are allowed but must be used
+    - 4.  [Exceptions](#exceptions): Exceptions are allowed but must be used
       carefully
-      5.  [Global Variables](#global-variables): Avoid global variables
-      6.  [Local Classes and Functions](#local-classes-and-functions):
+    - 5.  [Global Variables](#global-variables): Avoid global variables
+    - 6.  [Local Classes and Functions](#local-classes-and-functions):
       Local/nested/inner classes and functions are fine
-      7.  [List Comprehensions](#list-comprehensions): Okay to use for simple cases
-      8.  [Default Iterators and Operators](#default-iterators-and-operators):
+    - 7.  [List Comprehensions](#list-comprehensions): Okay to use for simple cases
+    - 8.  [Default Iterators and Operators](#default-iterators-and-operators):
       Use default iterators and operators for types that support them, like
       lists, dictionaries, and files
-      9.  [Generators](#generators): Use generators as needed
-      10. [Lambda Functions](#lambda-functions): Use only for one-liners
-      11. [Conditional Expressions](#conditional-expressions): Use only for
+    - 9.  [Generators](#generators): Use generators as needed
+    - 10. [Lambda Functions](#lambda-functions): Use only for one-liners
+    - 11. [Conditional Expressions](#conditional-expressions): Use only for
       one-liners
-      12. [Default Parameters](#default-parameters): Okay in most cases
-      13. [Properties](#properties): Use to access or set data instead of simple
+    - 12. [Default Parameters](#default-parameters): Okay in most cases
+    - 13. [Properties](#properties): Use to access or set data instead of simple
       accessor or setter methods
-      14. [True and False Evaluations](#true-and-false-evaluations): Use the
+    - 14. [True and False Evaluations](#true-and-false-evaluations): Use the
       "implicit" false if at all possible
-      15. [Deprecated Language Features](#deprecated-language-features):
+    - 15. [Deprecated Language Features](#deprecated-language-features):
       - Use string methods instead of the `string` module where possible
       - Use function call syntax instead of `apply`
       - Use list comprehensions and for loops instead of `filter` and `map` when
       the function argument would have been an inlined lambda anyway
       - Use for loops instead of `reduce`
-      16. [Lexical Scoping](#lexical-scoping): Okay to use
-      17. [Function and Method Decorators](#function-and-method-decorators):
+    - 16. [Lexical Scoping](#lexical-scoping): Okay to use
+    - 17. [Function and Method Decorators](#function-and-method-decorators):
       Use decorators judiciously when there is a clear advantage
-      18. [Threading](#threading): Do not rely on the atomicity of built-in types
-      19. [Power Features](#power-features): Avoid using these features.
-3. [Style Guidelines](#style-rules)
-    1.  [Semicolons](#semicolons): Avoid using semicolons in  your code.
-    2.  [Line Length](#line-length): Maximum line length is 80 characters.
-    3.  [Parentheses](#parentheses): Use parentheses sparingly.
-    4.  [Indentation](#indentation): Indent your code blocks with 4 spaces.
-
+    - 18. [Threading](#threading): Do not rely on the atomicity of built-in types
+    - 19. [Power Features](#power-features): Avoid using these features.
+- 3. [Style Guidelines](#style-rules)
+    - 1.  [Semicolons](#semicolons): Avoid using semicolons in  your code.
+    - 2.  [Line Length](#line-length): Maximum line length is 80 characters.
+    - 3.  [Parentheses](#parentheses): Use parentheses sparingly.
+    - 4.  [Indentation](#indentation): Indent your code blocks with 4 spaces.
+<!-- /MarkdownTOC -->
 Project Guidelines
 ------------------
 
