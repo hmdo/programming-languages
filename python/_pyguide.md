@@ -20,9 +20,9 @@ This is **version 1.0** of the documentation.
 Quick Reference
 ---------------
 
-I. [Project Guidelines](#project-rules)
+1. [Project Guidelines](#project-rules)
     1.  [Version](#version): Use Python 2.7
-II. [Language Guidelines](#language-rules)
+2. [Language Guidelines](#language-rules)
     1.  [Lint](#lint): Run _pylint_ over your code
     2.  [Imports](#imports): Use imports for packages and modules only
     3.  [Packages](#packages): Import each module using the full pathname
