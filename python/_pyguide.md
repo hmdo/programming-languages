@@ -59,10 +59,20 @@ Quick Reference
     - [2. Line Length](#line-length): Maximum line length is 80 characters.
     - [3. Parentheses](#parentheses): Use parentheses sparingly.
     - [4. Indentation](#indentation): Indent your code blocks with 4 spaces.
+    - [5. Blank Lines](#blank-lines)
+    - [6. Whilespace](#whitespace)
+    - [7. Shebang Line](#shebang-line)
+    - [8. Comments](#comments)
+    - [9. Classes](#classes)
+    - [10. Strings](#strings)
+    - [11. File and Sockets](#files-and-sockets)
+    - [12. Imports formatting](#imports-formatting)
+    - [13. Statements](#statements)
+    - [14. Access Control](#access-control)
+    - [15. Naming](#naming)
 <!-- /MarkdownTOC -->
 Project Guidelines
 ------------------
-
 ### Version ###
 
 **Decision**: Use Python 2.7.
@@ -807,12 +817,8 @@ if not(x):
 return (foo)
 ```
 
-
-[line length]: #line-length
-
-
+[Indentation]: #indentation
 ### Indentation ###
-
 **Decision**: Use 4 spaces to indent your code blocks, never use tabs or mix
 tabs and spaces.
 
@@ -865,7 +871,6 @@ foo = {
     long_dictionary_key2:
         long_dictionary_value2}
 ```
-
 
 [Blank Lines]: #blank-lines
 ### Blank Lines ###
@@ -937,6 +942,7 @@ def complex(real, imag = 0.0): return magic(r = real, i = imag)
       'long_name': 2,
   }
 ```
+
 [Shebang Line]:#shebang-line
 ### Shebang Line ###
 Most *.py* files do not need to start with a #! line. Start the main file of a program with *#!/usr/bin/env* python with an optional single digit 2 or 3 suffix. This line is used by the kernel to find the Python interpreter, but is ignored by Python when importing modules. It is only necessary on a file that will be executed directly.
@@ -1120,6 +1126,7 @@ Yes:
 Don't do this.
 """
 ```
+
 [File and Sockets]:#files-and-sockets
 ### Files and Sockets ###
 Explicitly close files and sockets when done with them.
