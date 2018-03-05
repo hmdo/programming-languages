@@ -182,7 +182,7 @@ plt.xlabel('some more numbers')
 plt.savefig('../imgs/plot.png')
 plt.show()
 ```
-![alt-text](/imgs/plot.png)
+![alt-text](../imgs/plot.png)
 
 <a name="crazylines"></a>
 ```python {cmd:true, matplotlib:true}
@@ -196,7 +196,7 @@ plt.plot(x,y,'--', x**2, y**2,'-.')
 plt.savefig('../imgs/lines.png')
 plt.show()
 ```
-![alt-text](/imgs/lines.png)
+![alt-text](../imgs/lines.png)
 
 <a name="ticks"></a>
 ```python {cmd:true, matplotlib:true}
@@ -215,7 +215,7 @@ plt.margins(0.2)
 plt.savefig('../imgs/ticks.png')
 plt.show()
 ```
-![alt-text](/img/ticks.png)
+![alt-text](../imgs/ticks.png)
 ### Subplotting Examples <a name="sub"></a>
 ```python {cmd:true, matplotlib:true}
 import matplotlib.pyplot as plt
@@ -245,7 +245,7 @@ ax2.set_xlim(1, 7.5)
 plt.savefig('mediumplot.png')
 plt.show()
 ```
-![alt-text](/img/mediumplot.png)
+![alt-text](../img/mediumplot.png)
 
 Thanks to this guy for this [good example](http://stackoverflow.com/questions/37970424/what-is-the-difference-between-drawing-plots-using-plot-axes-or-figure-in-matpl) <a name="axes"></a>
 ```python {cmd:true, matplotlib:true}
@@ -278,7 +278,7 @@ ax4.plot(x4,y4)
 plt.savefig('../imgs/axes.png')
 plt.show()
 ```
-![alt-text](/imgs/axes.png)
+![alt-text](../imgs/axes.png)
 
 ```python {cmd:true, matplotlib:true}
 import numpy as np
@@ -293,7 +293,7 @@ ax.fill(x, y, color='lightblue')
 plt.savefig('../imgs/fill.png')
 plt.show()
 ```
-![alt-text](/imgs/fill.png)
+![alt-text](../imgs/fill.png)
 
 [source](http://matplotlib.org/api/pyplot_api.html?highlight=fill#matplotlib.pyplot.fill)
 
@@ -317,8 +317,8 @@ ax2 = fig.add_subplot(212, sharex=ax1)
 ax2.acorr(x, usevlines=True, normed=True, maxlags=50, lw=2)
 ax2.grid(True)
 ax2.axhline(0, color='black', lw=2)
-plt.savefig('/imgs/advanced.png')
+plt.savefig('../imgs/advanced.png')
 plt.show()
 ```
-![alt-text](/imgs/advanced.png)
+![alt-text](../imgs/advanced.png)
 Sources: [Datacamp](https://www.datacamp.com/), [Official Docs](http://matplotlib.org/api/) and [Quandl](https://s3.amazonaws.com/quandl-static-content/Documents/Quandl+-+Pandas,+SciPy,+NumPy+Cheat+Sheet.pdf)
